@@ -1,0 +1,43 @@
+body {
+  background-image: url(assets/images/planet.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  overflow: hidden;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.links {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 7px;
+  min-height: 100vh; 
+}
+
+
+.links img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.links img:hover {
+  transform: scale(1.2) rotate(10deg);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.links img:active {
+  transform: scale(0.9);
+  box-shadow: none;
+}
+
+#clockDisplay {
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
