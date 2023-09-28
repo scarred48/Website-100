@@ -18,8 +18,8 @@ body {
 
 
 .links img {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -36,7 +36,7 @@ body {
 
 #clockDisplay {
   text-align: center;
-  font-size: 24px;
+  font-size: 16px;
   color: #fff;
   margin-bottom: 20px;
 }
