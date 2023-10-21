@@ -23,6 +23,19 @@ body {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+/* Apply square gray boxes to all images */
+/* Apply smaller square gray boxes to all images */
+img {
+  width: 10px; /* Set the width of the image */
+  height: 10px; /* Set the height of the image */
+  object-fit: cover; /* Ensure the image fills the square */
+  border: 2px solid #0B0B0B; /* Gray border */
+  background-color: #0B0B0B; /* Gray background */
+  padding: 5px; /* Add some padding for spacing */
+  border-radius: 10%;
+}
+
+
 
 .links img:hover {
   transform: scale(1.2) rotate(10deg);
